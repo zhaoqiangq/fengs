@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/base.css">
+    <script src="laydate/laydate.js"></script>
+    <script src="js/base.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+    <title>峰鸟管理系统</title>
+</head>
+<body>
+  <div class="header">
+    <div class="container">
+        <div class="msg">
+            <a href="">轻备学院</a>
+            |
+            <span>峰鸟管理系统</span>
+        </div>
+        <ul class="nav">
+            <li>
+                <a href="">工作台</a>
+            </li>
+            <li>
+                <a href="">招生</a>
+            </li>
+            <li>
+                <a href="">教务</a>
+            </li>
+            <li>
+                <a href="" class="active">绩效</a>
+            </li>
+            <li>
+                <a href="">财务</a>
+            </li>
+            <li>
+                <a href="">设置</a>
+            </li>
+            <li>
+                <a href="">去官网</a>
+            </li>
+        </ul>
+        <ul class="user">
+            <li>
+                <img src="images/icon06.png" alt="">
+                <span>咨询部陈峰</span>
+            </li>
+            <li>
+                <a href="">
+                    <img src="images/icon05.png" alt="">
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+  <div class="performan">
+      <div class="main-wrap">
+          <div class="side-nav">
+              <div class="mt20">
+                  <h2>实时统计</h2>
+              </div>
+              <ul>
+                  <li class="active">
+                      <a href="">我的订单</a>
+                  </li>
+                  <li>
+                      <a href="">我的退单</a>
+                  </li>
+                  <li>
+                      <a href="">我的提成</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="percontent">
+              <div class="inneras">
+                  <span>我的订单</span>
+                  <div style="margin-top: 20px">
+                      <select name="" id="hh">
+                          <option value="">学员姓名</option>
+                          <option value="">学员姓名</option>
+                          <option value="">学员姓名</option>
+                          <option value="">学员姓名</option>
+                          <option value="">学员姓名</option>
+                      </select>
+                      <input type="text" placeholder="请输入查询信息">
+                      <select name="" id="ss">
+                          <option value="">确定付款</option>
+                          <option value="">学员姓名</option>
+                          <option value="">学员姓名</option>
+                          <option value="">学员姓名</option>
+                          <option value="">学员姓名</option>
+                      </select>
+                      <input type="text" class="time" placeholder="请选择日期" id="test1">
+                      <select name="" id="ssa">
+                          <option value="">正业绩</option>
+                          <option value="">学员姓名</option>
+                          <option value="">学员姓名</option>
+                          <option value="">学员姓名</option>
+                          <option value="">学员姓名</option>
+                      </select>
+                      <select name="" id="sss">
+                          <option value="">职员</option>
+                          <option value="">学员姓名</option>
+                          <option value="">学员姓名</option>
+                          <option value="">学员姓名</option>
+                          <option value="">学员姓名</option>
+                      </select>
+                      <input type="submit" value="查询">
+                      <input type="button" value="增加">
+                      <input type="button" value="删除">
+                  </div>
+                  <div class="innerrigt">
+                  <table>
+                      <thead>
+                      <tr>
+                          <th style="width: 20px">
+                              <input type="checkbox" name="selectall">
+                              <label for=""></label>
+                          </th>
+                          <th>姓名 </th>
+                          <th >电话</th>
+                          <th>订单课程</th>
+                          <th>应收金额</th>
+                          <th>实收金额</th>
+                          <th>业绩类型</th>
+                          <th>成交时间</th>
+                          <th>续费最晚时间</th>
+                          <th>数据协作</th>
+                          <th>讲师</th>
+                          <th>订单状态</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                          <td><input type="checkbox" name="stuCheckBox">
+                              <label for=""></label></td>
+                          <td>欧阳夏天</td>
+                          <td>1878888888888</td>
+                          <td>初级会计</td>
+                          <td><span>1380元</span></td>
+                          <td><span>1380元</span></td>
+                          <td>正业绩</td>
+                          <td>2018-7-8</td>
+                          <td>2018-7-8</td>
+                          <td>无</td>
+                          <td>无</td>
+                          <td><span class="status green">订单状态</span></td>
+                      </tr>
+                      <tr>
+                          <td><input type="checkbox" name="stuCheckBox">
+                              <label for=""></label></td>
+                          <td>欧阳夏天</td>
+                          <td>1878888888888</td>
+                          <td>初级会计</td>
+                          <td><span>1380元</span></td>
+                          <td><span>1380元</span></td>
+                          <td>正业绩</td>
+                          <td>2018-7-8</td>
+                          <td>2018-7-8</td>
+                          <td>无</td>
+                          <td>无</td>
+                          <td><span class="status orange">订单状态</span></td>
+                      </tr>
+                      <tr>
+                          <td><input type="checkbox" name="stuCheckBox">
+                              <label for=""></label></td>
+                          <td>欧阳夏天</td>
+                          <td>1878888888888</td>
+                          <td>初级会计</td>
+                          <td><span>1380元</span></td>
+                          <td><span>1380元</span></td>
+                          <td>正业绩</td>
+                          <td>2018-7-8</td>
+                          <td>2018-7-8</td>
+                          <td>无</td>
+                          <td>无</td>
+                          <td><span class="status blue">订单状态</span></td>
+                      </tr>
+                      <tr>
+                          <td><input type="checkbox" name="stuCheckBox">
+                              <label for=""></label></td>
+                          <td>欧阳夏天</td>
+                          <td>1878888888888</td>
+                          <td>初级会计</td>
+                          <td><span>1380元</span></td>
+                          <td><span>1380元</span></td>
+                          <td>正业绩</td>
+                          <td>2018-7-8</td>
+                          <td>2018-7-8</td>
+                          <td>无</td>
+                          <td>无</td>
+                          <td><span class="status yellow">订单状态</span></td>
+                      </tr>
+                      <tr>
+                          <td><input type="checkbox" name="stuCheckBox">
+                              <label for=""></label></td>
+                          <td>欧阳夏天</td>
+                          <td>1878888888888</td>
+                          <td>初级会计</td>
+                          <td><span>1380元</span></td>
+                          <td><span>1380元</span></td>
+                          <td>正业绩</td>
+                          <td>2018-7-8</td>
+                          <td>2018-7-8</td>
+                          <td>无</td>
+                          <td>无</td>
+                          <td><span class="status">订单状态</span></td>
+                      </tr>
+                      <tr>
+                          <td><input type="checkbox" name="stuCheckBox">
+                              <label for=""></label></td>
+                          <td>欧阳夏天</td>
+                          <td>1878888888888</td>
+                          <td>初级会计</td>
+                          <td><span>1380元</span></td>
+                          <td><span>1380元</span></td>
+                          <td>正业绩</td>
+                          <td>2018-7-8</td>
+                          <td>2018-7-8</td>
+                          <td>无</td>
+                          <td>无</td>
+                          <td><span class="status">订单状态</span></td>
+                      </tr>
+                      <tr>
+                          <td><input type="checkbox" name="stuCheckBox">
+                              <label for=""></label></td>
+                          <td>欧阳夏天</td>
+                          <td>1878888888888</td>
+                          <td>初级会计</td>
+                          <td><span>1380元</span></td>
+                          <td><span>1380元</span></td>
+                          <td>正业绩</td>
+                          <td>2018-7-8</td>
+                          <td>2018-7-8</td>
+                          <td>无</td>
+                          <td>无</td>
+                          <td><span class="status">订单状态</span></td>
+                      </tr>
+                      <tr>
+                          <td><input type="checkbox" name="stuCheckBox">
+                              <label for=""></label></td>
+                          <td>欧阳夏天</td>
+                          <td>1878888888888</td>
+                          <td>初级会计</td>
+                          <td><span>1380元</span></td>
+                          <td><span>1380元</span></td>
+                          <td>正业绩</td>
+                          <td>2018-7-8</td>
+                          <td>2018-7-8</td>
+                          <td>无</td>
+                          <td>无</td>
+                          <td><span class="status">订单状态</span></td>
+                      </tr>
+                      <tr>
+                          <td><input type="checkbox" name="stuCheckBox">
+                              <label for=""></label></td>
+                          <td>欧阳夏天</td>
+                          <td>1878888888888</td>
+                          <td>初级会计</td>
+                          <td><span>1380元</span></td>
+                          <td><span>1380元</span></td>
+                          <td>正业绩</td>
+                          <td>2018-7-8</td>
+                          <td>2018-7-8</td>
+                          <td>无</td>
+                          <td>无</td>
+                          <td><span class="status">订单状态</span></td>
+                      </tr>
+                      <tr>
+                          <td><input type="checkbox" name="stuCheckBox">
+                              <label for=""></label></td>
+                          <td>欧阳夏天</td>
+                          <td>1878888888888</td>
+                          <td>初级会计</td>
+                          <td><span>1380元</span></td>
+                          <td><span>1380元</span></td>
+                          <td>正业绩</td>
+                          <td>2018-7-8</td>
+                          <td>2018-7-8</td>
+                          <td>无</td>
+                          <td>无</td>
+                          <td><span class="status">订单状态</span></td>
+                      </tr>
+                      <tr>
+                          <td><input type="checkbox" name="stuCheckBox">
+                              <label for=""></label></td>
+                          <td>欧阳夏天</td>
+                          <td>1878888888888</td>
+                          <td>初级会计</td>
+                          <td><span>1380元</span></td>
+                          <td><span>1380元</span></td>
+                          <td>正业绩</td>
+                          <td>2018-7-8</td>
+                          <td>2018-7-8</td>
+                          <td>无</td>
+                          <td>无</td>
+                          <td><span class="status">订单状态</span></td>
+                      </tr>
+                      </tbody>
+                  </table>
+                      <!--操作-->
+                      <div class="chaozuo" style="height: 180px">
+                          <h2>操作</h2>
+                          <div class="close" id="closeright"></div>
+                          <div class="inners">
+                              <ul class="icon">
+                                  <li>
+                                      <img src="images/cicon01.png" alt="">
+                                      详情
+                                  </li>
+                                  <li>
+                                      <img src="images/cicon02.png" alt="">
+                                      续费
+                                  </li>
+                                  <li id="enter">
+                                      <img src="images/cicon03.png" alt="">
+                                      升班
+                                  </li>
+                                  <li id="enter">
+                                      <img src="images/cicon04.png" alt="">
+                                      退费
+                                  </li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="footer">
+      Copyright@2013-2017成都轻备教育科技有限公司 蜀ICP备13040992号
+  </div>
+  <!--办理升学-->
+  <div class="shade" id="enters">
+      <div class="ball active">
+          <h2>办理升学</h2>
+          <div class="close"></div>
+          <div class="inners">
+              <div class="forms">
+                  <span>升班课程</span>
+                  <select name="" id="hh">
+                      <option value="">教师资格证</option>
+                      <option value="">按团队</option>
+                      <option value="">按团队</option>
+                      <option value="">按团队</option>
+                      <option value="">按团队</option>
+                  </select>
+                  <span>课程原价：</span>
+                  <input type="text">
+                  <span>优惠：</span>
+                  <input type="text">
+                  <span>应有：</span>
+                  <input type="text">
+                  <span>实收：</span>
+                  <input type="text">
+                  <span>欠费金额：</span>
+                  <input type="text">
+                  <span>续费：</span>
+                  <input type="text">
+                  <span>到款方式：</span>
+                  <select name="" id="hh">
+                      <option value="">微信</option>
+                      <option value="">按团队</option>
+                      <option value="">按团队</option>
+                      <option value="">按团队</option>
+                      <option value="">按团队</option>
+                  </select>
+                  <div style="text-align:center;margin-top: 20px">
+                      <input type="submit" value="确定续费">
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!--办理退费-->
+  <div class="shade" id="premiums">
+      <div class="ball active">
+          <h2>办理退费</h2>
+          <div class="close"></div>
+          <div class="inners">
+              <div class="forms">
+                  <span>退费课程</span>
+                  <select name="" id="hh">
+                      <option value="">教师资格证</option>
+                      <option value="">按团队</option>
+                      <option value="">按团队</option>
+                      <option value="">按团队</option>
+                      <option value="">按团队</option>
+                  </select>
+                  <span>课程原价：</span>
+                  <input type="text">
+                  <span>实收：</span>
+                  <input type="text">
+                  <span>退费金额：</span>
+                  <input type="text">
+                  <span>备注：</span>
+                  <input type="text">
+                  <span>退费原因：</span>
+                  <input type="text" style="width: 70%">
+                  <span>到款方式：</span>
+                  <select name="" id="hh" style="width: 100px">
+                      <option value="">微信</option>
+                      <option value="">按团队</option>
+                      <option value="">按团队</option>
+                      <option value="">按团队</option>
+                      <option value="">按团队</option>
+                  </select>
+                  <input type="text">
+                  <div style="text-align:center;margin-top: 20px">
+                      <input type="submit" value="确定退费">
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <script>
+      $(function () {
+          //全选
+          $('input[name="selectall"]').click(function(e){
+              //alert(this.checked);
+              if($(this).is(':checked')){
+                  $('input[name="stuCheckBox"]').each(function(){
+                      //此处如果用attr，会出现第三次失效的情况
+                      $(this).prop("checked",true);
+                  });
+              }else{
+                  $('input[name="stuCheckBox"]').each(function(){
+                      $(this).removeAttr("checked",false);
+                  });
+              }
+
+          });
+          //弹出操作
+          $('table tbody tr').on('click',function () {
+              var check = $(this).find("input[type='checkbox']");
+              $('.chaozuo').addClass('active');
+          })
+          $("input[type='checkbox']").click(function(e){
+              e.stopPropagation();
+          });
+          //关闭操作
+          $('#closeright').on('click',function () {
+              $('.chaozuo').removeClass('active');
+          })
+          //升学
+          $('#enter').on('click',function () {
+              $('#enters').fadeIn();
+          })
+          //退费
+          $('#premium').on('click',function () {
+              $('#premiums').fadeIn();
+          })
+          //关闭弹窗
+          $('.close').on('click',function () {
+              $('.shade').fadeOut();
+          })
+      })
+  </script>
+</body>
+</html>
